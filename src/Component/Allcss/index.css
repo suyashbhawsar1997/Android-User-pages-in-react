@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+button{
+    background: none;
+    border: none;
+}
+.bg-color-card{
+    background-color: #F9F9F9;
+    border-color: rgba(229, 229, 229, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.success-card{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 22px;
+    z-index: 1111;
+    width: 75px;
+    height: auto;
+}
+.card-full-div{
+    position: relative;
+    top: -15px;
+}
+
+.price-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    color: rgba(0, 73, 166, 1);
+    line-height: 23.36px;
+    margin-top: 20px
+}
+
+.single-line-color{
+   color:rgba(203, 203, 203, 1);
+}
+.payment-para{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    line-height: 21.9px;
+    color: rgba(19, 19, 19, 1);
+}
+.bg-color-card-2{
+    background-color: rgba(162, 255, 152, 0.13);
+    border-color: rgba(0, 209, 45, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.card-color-2{
+    border-radius: 12px;
+    border-color: rgba(229, 229, 229, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.set-name{
+    font-size: 18px;
+    line-height: 26.28px;
+}
+.set-para{
+    font-size: 12px;
+    line-height: 17.52px;
+    color: rgba(108, 108, 108, 1);
+}
+.set-pera-2{
+    font-size: 11px;
+    line-height: 16.06px;
+    color: rgba(108, 108, 108, 1);
+}
+
+.icons-set{
+    display: flex;
+    justify-content: space-between;
+}
+.set-linkdin{
+    width: 60px;
+    height: auto;
+}
+.hr-link{
+    color: rgba(229, 229, 229, 1);
+}
+.set-name{
+    font-size: 14px;
+    line-height: 20.44px;
+}
+.set-descri{
+    font-size: 15px;
+    line-height: 21.9px;
+    color: rgba(19, 19, 19, 1);
+}
+.accept-button{
+    background-color: rgba(142, 96, 204, 1);
+    border-radius: 25px;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.decline-button{
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    padding: 12px;
+    color: rgba(19, 19, 19, 1);
+    font-size: 16px;
+}
+
+/* _______________________ 2nd Page ____________________________ */
+
+.success-card-2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 22px;
+    z-index: 1111;
+}
+.price-heading-2{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgba(0, 73, 166, 1);
+    line-height: 24px;
+}
+.single-line-color-2{
+    margin: 4px;
+    color:rgba(203, 203, 203, 1);
+}
+.payment-para-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(19, 19, 19, 1)
+}
+.second-heading-toggle{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(19, 19, 19, 1);
+}
+.set-minutes{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+/* toggle css start */
+.toggle-btn {
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(229, 229, 229, 1);
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    width: 85px;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.toggle-btn:hover {
+    background-color: lightgray;
+}
+
+.toggle-btn:focus,
+.toggle-btn:active {
+    outline: none;
+}
+
+.toggle-btn::-moz-focus-inner {
+    border: 0;
+}
+
+.pin {
+    background-color: white;
+    border-radius: 98px;
+    height: 35px;
+    width: 35px;
+    left: 4px;
+    position: absolute;
+    top: 0px;
+    transition: left ease .5s;
+}
+
+.toggle-btn.on {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.toggle-btn.on .pin {
+    left: 42px;
+    background-color: rgba(0, 209, 45, 1);
+}
+.toggle-btn.off{
+    background-color: rgba(255, 255, 255, 1);
+}
+.toggle-btn.off .pin{
+    background-color: orange;
+
+}
+/* toggle css End */
+
+.set-date{
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(19, 19, 19, 1);
+    font-weight: 400;
+}
+.react-datepicker-wrapper{
+    width: -webkit-fill-available;
+    background-color: rgba(249, 249, 249, 1);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgba(131, 131, 131, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.custom-datepicker-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-datepicker-input img {
+    width: 20px; 
+    height: 20px;
+}
+.set-date-name{
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(19, 19, 19, 1);
+    font-weight: 400;
+}
+.set-timepicker{
+    background-color: rgba(249, 249, 249, 1) ;
+}
+  .input-group-append{
+    display: flex;
+  }
+  .input-group-text{
+    background-color: rgba(249, 249, 249, 1);
+  }
+  .set-timeint{
+    color: rgba(19, 19, 19, 1);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .card-body{
+    padding: 10px 0;
+  }
+  .accept-button-2{
+    background-color: rgba(142, 96, 204, 1);
+    border-radius: 25px;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
